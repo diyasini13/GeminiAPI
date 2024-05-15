@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magic Story Generator</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+  <h1>Magic Story Generator</h1>
+  <textarea id="prompt" placeholder="Write a story about a magic backpack."></textarea>
+  <button id="generateBtn">Generate Story</button>
+  <div id="output"></div>
+</div>
+<script type="importmap">
+    {
+      "imports": {
+        "@google/generative-ai": "https://esm.run/@google/generative-ai"
+      }
+    }
+  </script>
+<script type="module" src="index.js"></script>
+</body>
+</html>
